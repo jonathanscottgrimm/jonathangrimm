@@ -18,6 +18,10 @@ div#main {
   flex-direction: column;
 }
 
+header {
+    background:white;
+}
+
 section {
   position: relative;
 }
@@ -34,17 +38,17 @@ section.light {
   padding: 8rem 0;
 }
 
-section img.background {
-  width: 100vmax;
-  height: 100%;
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  pointer-events: none;
-  object-fit: cover;
-}
+    section img.background {
+        width: 100vmax;
+        height: 100%;
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        pointer-events: none;
+        object-fit: scale-down;
+    }
 
 h1 {
   font-weight: 300;
